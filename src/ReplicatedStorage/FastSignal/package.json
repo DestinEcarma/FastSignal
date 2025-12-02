@@ -1,0 +1,30 @@
+{
+  "name": "@rbxts/fastsignal",
+  "version": "10.4.0",
+  "description": "Lua Signal library, aims at being similar and familiar to RBXScriptSignals.",
+  "keywords": [
+    "roblox",
+    "luau"
+  ],
+  "homepage": "https://rblxutils.github.io/FastSignal/",
+  "bugs": {
+    "url": "https://github.com/RBLXUtils/FastSignal/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RBLXUtils/FastSignal.git"
+  },
+  "license": "MIT",
+  "author": "LucasMZReal",
+  "main": "init.lua",
+  "types": "index.d.ts",
+  "files": [
+    "init.lua",
+    "index.d.ts",
+    "Deferred.lua",
+    "Immediate.lua"
+  ],
+  "devDependencies": {
+    "@rbxts/compiler-types": "^3.0.0-types.0"
+  }
+}
